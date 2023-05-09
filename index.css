@@ -1,0 +1,65 @@
+/* image profile */
+nav img{
+    border-radius: 120px;
+    width: 118px;
+    height: 120px;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+/* contenu à gauche  */
+.left{
+    display: block;
+    float: left;
+     background-color:#080739;
+     margin-left: 2px;
+     margin-top: 5px;
+     /* position: fixed; */
+     width: 200px;
+     height: 100%;
+     text-align: left;
+}
+
+.container{
+    margin-left: 5px;
+}
+h4{
+    color: white;
+}
+ul{
+    margin-top: -10px;
+}
+/* ul li{
+    list-style: none;
+    color:rgba(240, 248, 255, 0.767) ;
+    margin-bottom: 5px;
+} */
+.trait_bleu{
+    width: 25px;
+    background-color: rgb(8, 11, 201);
+    border: 1px solid blue;
+    height: 3px;
+    margin-top: -20px;
+}
+.nav_black_white_col{
+    color: rgba(240, 248, 255, 0.767);
+    line-height: 25px;
+}
+.divertissement{
+    line-height: 8px;
+}
+.div_all p{
+margin-top: 5px;
+line-height: 20px;
+}
+.lang{
+    margin-top: -20px;
+}
+.lang p{
+    line-height: 15px;
+
+}
+.droite{
+    float: right;
+    display: flex;
+    padding-left: 10px;
+}
