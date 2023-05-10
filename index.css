@@ -1,44 +1,74 @@
-/* image profile */
-nav img{
-    border-radius: 120px;
-    width: 118px;
-    height: 120px;
-   margin-left: 30px;
-   margin-top: 20px;
-}
-/* contenu à gauche  */
-.left{
-    display: block;
-    float: left;
-     background-color:#080739;
-     margin-left: 2px;
-     margin-top: 5px;
-     /* position: fixed; */
-     width: 200px;
-     height: 100%;
-     text-align: left;
+
+*{
+	box-sizing: border-box;
 }
 
-.container{
-    margin-left: 5px;
+
+/* diffrents couleurs  */
+:root{
+	--bgcolor:#c9c7c3;
+	--blue:#2fb7fe;
+    --bleu-foncer:#080739;    
+	--white:#f4f7ff;
+	
+	
 }
+
+/* Aligner le cv au centre de la page  */
+
+.center{
+	width: 800px;
+	height: 900px;
+	margin: 100px auto;
+	background: var(--white);
+	box-shadow: 5px 15px 10px 10px #3d3f4238;
+}
+
+.section-gauche{
+	width: 250px;
+	height: 900px;
+	float: left;
+    background-color: var(--bleu-foncer);
+}
+.section-droite{
+	padding: 40px 30px;
+    background: var(--white);
+    width: 68%;
+    float: left;
+    height: 900px;
+}
+
+/*  profile */
+section img{
+    border-radius: 120px;
+    width: 122px;
+    height: 120px;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+p{
+    font-weight: 700;
+}
+
 h4{
     color: white;
+    
+}
+
+ h3{
+    color: var(--blue);
 }
 ul{
     margin-top: -10px;
 }
-/* ul li{
-    list-style: none;
-    color:rgba(240, 248, 255, 0.767) ;
-    margin-bottom: 5px;
-} */
+
 .trait_bleu{
     width: 25px;
     background-color: rgb(8, 11, 201);
     border: 1px solid blue;
     height: 3px;
-    margin-top: -20px;
+    margin-top: -15px;
+    /* margin-top: -20px; */
 }
 .nav_black_white_col{
     color: rgba(240, 248, 255, 0.767);
@@ -58,8 +88,29 @@ line-height: 20px;
     line-height: 15px;
 
 }
-.droite{
+
+.container{
+    display: block;
+    margin-left: 15px;
+}
+
+.langage div{
+    margin: 6px;
+}
+.lagage span{
+    margin-left: -5px;
+}
+.framework span{
+    margin-left: -90px;
+}
+.rond{
+margin-left:2px ;
+padding-left: 5px;
+}
+
+.framework_autres{
     float: right;
-    display: flex;
-    padding-left: 10px;
+    display: block;
+    margin-top: -143px;
+    margin-left: -20px;
 }
